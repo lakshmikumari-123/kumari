@@ -1,0 +1,4 @@
+bin/
+*.class
+src/Programs/Dockerfile
+src/Programs/Dockerfile.txt
