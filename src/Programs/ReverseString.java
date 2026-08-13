@@ -10,7 +10,7 @@ public class ReverseString
 	{
  s2+=s.charAt(i);
 	}
-	System.out.println("I love java ❤"+ s2);
+	System.out.println("I love  ❤"+ s2 + "so muchhhhh😍😍😍💕");
 	}
 
 }
