@@ -29,8 +29,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: docker
-        run: docker build -t ReverseString .
+        run: docker build -t reversestring .
 
       # Runs a set of commands using the runners shell
       - name: Runnig java code in a container
-        run: docker run --name Rev ReverseString
+        run: docker run --name Rev reversestring
