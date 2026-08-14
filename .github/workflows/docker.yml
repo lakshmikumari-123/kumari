@@ -25,7 +25,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4\
       - name: Maven
-      - uses:mvn clean package
+        run: mvn clean package
 
       # Runs a single command using the runners shell
       - name: docker
